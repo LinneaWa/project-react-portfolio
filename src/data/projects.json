@@ -1,10 +1,29 @@
 [
+  
+    {
+      "title": "Filip Foto Film",
+      "title-description": "A Website for the company Filip Foto Film",
+      "project-description": "This project is curently in progress. It was my final project at Technigo and since then I have expanded the site and tried different solutions.",
+      "repo-name": "Filip-Foto-Film-final-project-dec22",
+      "netlifyname": "https://linnea-w-final-project.netlify.app/",
+      "tags": ["HTML5", "CSS3", "JavaScript", "React", "API", "Mongo DB", "Google Cloud/Render"],
+      "image": "/project-img/filipfotofilm.png"
+    },
+    {
+      "title": "Happy Thoughts",
+      "title-description": "A twitter-like app ",
+      "project-description": "A React application using API post and fetch. ",
+      "repo-name": "Happy-Thoughts-API-Frontend",
+      "netlifyname": "https://linnea-happy-thoughts-api-frontend.netlify.app/",
+      "tags": ["HTML5", "CSS3", "JavaScript", "React", "API", "Mongo DB", "Google Cloud/Render"],
+      "image": "/project-img/happy.png"
+    },
     {
       "title": "Movies",
       "title-description": "Website listing recently released popular movies.",
       "project-description": "A multipage React application using routes.",
       "repo-name": "project-movies",
-      "netlify-name": "https://project-movies-linnea-nina.netlify.app",
+      "netlifyname": "https://project-movies-linnea-nina.netlify.app",
       "tags": ["HTML5", "CSS3", "JavaScript", "React", "API"],
       "image": "/project-img/movies.png"
     },
@@ -13,7 +32,7 @@
       "title-description": "Website showing new album and single releases.",
       "project-description": "A page based on Spotify API",
       "repo-name": "project-music-releases",
-      "netlify-name": "https://neah-and-linnea-music-releases.netlify.app",
+      "netlifyname": "https://neah-and-linnea-music-releases.netlify.app",
       "tags": ["HTML5", "CSS3", "JavaScript", "React", "API"],
       "image": "/project-img/music.png"
     },
@@ -22,7 +41,7 @@
       "title-description": "Neontastic survey",
       "project-description": "A typeform-like survey built with React",
       "repo-name": "project-survey",
-      "netlify-name": "https://linneas-neontastic-survey.netlify.app",
+      "netlifyname": "https://linneas-neontastic-survey.netlify.app",
       "tags": ["HTML5", "CSS3", "JavaScript", "React"],
       "image": "/project-img/survey.png"
     },
@@ -31,7 +50,7 @@
       "title-description": "Weather app based on open Weather API",
       "project-description": "A responsive web site using HTML & CSS",
       "repo-name": "project-weather-app",
-      "netlify-name": "wheather-app-linnea-and-tika.netlify.app",
+      "netlifyname": "https://wheather-app-linnea-and-tika.netlify.app/",
       "tags": ["HTML5", "CSS3", "JavaScript", "API"],
       "image": "/project-img/weatherApp.png"
     }

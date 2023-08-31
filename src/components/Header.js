@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import heroImage from '../assets/headerhero.jpg';
 import heroLinkedin from '../assets/icons/linkedinwhite.svg';
 import heroGithub from '../assets/icons/githubwhite.svg';
-import heroStackOverflow from '../assets/icons/stackwhite.svg';
+/* import heroStackOverflow from '../assets/icons/stackwhite.svg'; */
 import profileImage from '../assets/Linneaprofil.JPG';
 
 export const Header = () => {
@@ -16,11 +16,11 @@ export const Header = () => {
         <a href="https://github.com/LinneaWa" target="_blank" rel="noreferrer">
           <img src={heroGithub} alt="Github icon for the header" />
         </a>
-        <a href="https://stackoverflow.com/c/technigo/users/400" target="_blank" rel="noreferrer">
+        {/* <a href="https://stackoverflow.com/c/technigo/users/400" target="_blank" rel="noreferrer">
           <img
             src={heroStackOverflow}
             alt="Stack Overflow icon for the header" />
-        </a>
+        </a> */}
       </HeaderIcons>
       <HeaderTitle>
         <p>Portfolio: <b>Linnéa Wahlström</b> </p>

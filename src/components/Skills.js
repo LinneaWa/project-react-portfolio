@@ -13,19 +13,21 @@ export const Skills = ({ color, backColor }) => {
             <p>CSS3</p>
             <p>HTML5</p>
             <p>React</p>
-            <p>🔜 Redux</p>
-            <p>🔜 Node.js</p>
+            <p>Node.js</p>
+            <p>APIs</p>
           </SkillSection>
           <SkillSection>
             <h3>TOOLBOX</h3>
             <p>GitHub</p>
             <p>VSCode</p>
             <p>Figma</p>
+            <p>Mongo DB</p>
           </SkillSection>
           <SkillSection>
             <h3>MORE</h3>
             <p>Agile Methodology</p>
             <p>Responsive Design</p>
+            <p>Pair/mob-programming</p>
             <p>Pedagogical communication</p>
             <p>Group Dynamics</p>
           </SkillSection>
@@ -68,7 +70,7 @@ const SkillsContainer = styled.div`
 width: 80%;
 display: flex;
 flex-direction: column;
-justify-content: space-between;
+justify-content: space-evenly;
 
 @media (min-width: 668px){
     flex-direction: row;
@@ -78,6 +80,5 @@ justify-content: space-between;
 const SkillSection = styled.div`
 font-family: 'Montserrat', sans-serif;
 text-align: center;
-padding: 5px; 
-margin: 5px;
+width: 30%;
 `

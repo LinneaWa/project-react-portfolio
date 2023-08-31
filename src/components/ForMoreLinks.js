@@ -2,12 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 import LinkedinIcon from '../assets/icons/linkedin.svg';
 import GithubIcon from '../assets/icons/github.svg';
-import StackOverflowIcon from '../assets/icons/stackOverflow.svg';
+/* import StackOverflowIcon from '../assets/icons/stackOverflow.svg'; */
 
 export const ForMoreLinks = ({ color, backColor }) => {
   return (
     <ForMoreContainer backColor={backColor}>
-      <ForMoreHeading color={color}>FOR MORE</ForMoreHeading>
+      <ForMoreHeading color={color}>VISIT ME AT:</ForMoreHeading>
       <ForMoreIcons color={color}>
         <a href="https://www.linkedin.com/in/linn%C3%A9a-wahlstr%C3%B6m-018715253/" target="_blank" rel="noreferrer">
           <img src={LinkedinIcon} lang="eng" alt="Linkedin icon" />
@@ -17,9 +17,9 @@ export const ForMoreLinks = ({ color, backColor }) => {
           <img src={GithubIcon} lang="eng" alt="Github icon" />
         </a>
 
-        <a href="https://stackoverflow.com/c/technigo/users/400" target="_blank" rel="noreferrer">
+        {/* <a href="https://stackoverflow.com/c/technigo/users/400" target="_blank" rel="noreferrer">
           <img src={StackOverflowIcon} lang="eng" alt="Stackoverflow icon" />
-        </a>
+        </a> */}
 
       </ForMoreIcons>
     </ForMoreContainer>

@@ -7,7 +7,7 @@ export const Presentation = ({ backColor }) => {
     <OuterWrapper backColor={backColor}>
       <InnerWrapper>
         <PresentationContainer>
-          <PresentationText><img src={startIcon} alt="Start icon before presentation" />Hello! I am a frontend developer with a background as a teacher. I am a problemsolver who love to create functional solutions, both digital and physical. </PresentationText>
+          <PresentationText><img src={startIcon} alt="Start icon before presentation" />  Frontend developer with a background as a teacher. I am a problemsolver who love to create functional solutions, both digital and physical. </PresentationText>
         </PresentationContainer>
       </InnerWrapper>
     </OuterWrapper>

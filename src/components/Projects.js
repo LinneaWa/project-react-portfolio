@@ -8,15 +8,16 @@ export const Projects = ({ color, tagColor, backColor }) => {
   return (
     <OuterWrapper backColor={backColor}>
       <InnerWrapper>
-        <SectionHeader color={color}>FEATURED PROJECTS</SectionHeader>
+        <SectionHeader color={color}>PROJECTS</SectionHeader>
         <FeaturedProjectWrapper>
           {projects.map((project) => {
             return (
-              <ProjectCard
-                key={project.title}
-                href={`https://github.com/${GITHUB_NAME}/${project['repo-name']}`}
-                target="_blank">
-                <ThumbnailWrapper url={project.image}>
+              <ProjectCard>
+                <ThumbnailWrapper
+                  key={project.title}
+                  href={project.netlifyname}
+                  target="_blank"
+                  url={project.image}>
                   <ThumbnailTitle>{project.title.toUpperCase()}</ThumbnailTitle>
                 </ThumbnailWrapper>
                 <ProjectInfoHeader color={color}>
@@ -30,6 +31,12 @@ export const Projects = ({ color, tagColor, backColor }) => {
                     </ProjectTags>
                   ))}
                 </ul>
+                <GithubLink
+                  tagColor={tagColor}
+                  key={project.title}
+                  href={`https://github.com/${GITHUB_NAME}/${project['repo-name']}`}
+                  target="_blank"> View this repository on Github
+                </GithubLink>
               </ProjectCard>
             );
           })}
@@ -68,7 +75,7 @@ display: inline-block;
 font-size: 22px;
 line-height: 1;
 padding: 5px 10px;
-margin: 20px 0 20px 0;
+margin: 20px 0 80px 0;
 line-height: 1;
 `;
 
@@ -87,14 +94,19 @@ const FeaturedProjectWrapper = styled.div`
   }
 `;
 
-const ProjectCard = styled.a`
+const ProjectCard = styled.div`
   transform: translateY(0%);
   transition: transform 0.5s;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 5px;
   text-decoration: none;
   position: relative;
+  border: 8px solid rgb(246, 245, 240);
+  border-radius: 20px;
+  box-shadow:  8px 8px 60px rgb(100, 100, 100),
+         -8px -8px 60px rgb(100, 100, 100);
 
   &:hover {
     transform: translateY(-1%);
@@ -102,7 +114,7 @@ const ProjectCard = styled.a`
   } 
 `;
 
-const ThumbnailWrapper = styled.div`
+const ThumbnailWrapper = styled.a`
   background-size: cover;
   background-position: center;
   border-radius: 20px;
@@ -147,6 +159,7 @@ const ProjectInfo = styled.p`
   color: black;
   font-size: 16px;
   line-height: 1.4;
+  
 
   ${ProjectCard}:hover & {
     text-decoration: underline;
@@ -172,5 +185,25 @@ margin-bottom: 10px;
   padding: 4px 8px;
   font-size: 14px;
   margin-right: 7px;
+  }
+`;
+
+const GithubLink = styled.a`
+font-family: 'Montserrat', sans-serif;
+color: white;
+border-radius: 5px;
+padding: 5px 10px;
+background-color: ${(props) => props.tagColor};
+font-size: 14px;
+font-weight: bold;
+margin-right: 5px;
+margin-bottom: 10px;
+text-align: center;
+  width: 45%;
+  text-decoration: none;
+
+
+  a:hover {
+    text-decoration: underline;
   }
 `;
