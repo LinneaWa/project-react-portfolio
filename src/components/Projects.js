@@ -53,7 +53,7 @@ background-color: ${(props) => props.backColor};
 const InnerWrapper = styled.div`
   width: 80%;
   margin: 0 auto;
-  max-width: 1100px;
+  max-width: 1400px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -85,6 +85,13 @@ const FeaturedProjectWrapper = styled.div`
   grid-template-columns: 1fr 1fr;
   gap: 50px;
   margin-bottom: 50px;
+
+  @media (min-width: 1600px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 50px;
+  }
 
   @media (max-width: 800px) {
     display: grid;

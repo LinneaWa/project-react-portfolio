@@ -10,48 +10,102 @@
       "image": "/project-img/filipfotofilm.png"
     },
     {
+      "title": "Batcave",
+      "title-description": "Site with registered users, login and authenticated endpoint",
+      "project-description": "Week 16 of Technigo bootcamp we learned about how to build a registration flow and authenticate users using tokens. Backend + Frontend Project - Authentication APIThis project's goal was developing an API with authentication in order to implement a login/register interface with authentication. We learned how to authenticate users using tokens and how to store passwords in databases in a secure way. We also created a Frontend with a form to register, login and be able to see restricted content in case the login was successful.",
+      "repo-name": "project-weather-app",
+      "netlifyname": "https://wheather-app-linnea-and-tika.netlify.app/",
+      "tags": ["HTML5", "CSS3", "JavaScript", "API"],
+      "image": "/project-img/authentication.png"
+    },
+    {
+      "title": "Backend project - Mongo API",
+      "title-description": "",
+      "project-description": "",
+      "repo-name": "",
+      "netlifyname": "",
+      "tags": ["Mongo DB", "Express", "Node", "API", "Google Cloud/Render", "Postman"],
+      "image": ""
+    },
+    {
+      "title": "Backend project - Express API",
+      "title-description": "",
+      "project-description": "",
+      "repo-name": "",
+      "netlifyname": "",
+      "tags": ["Express", "Node", "API", "Google Cloud/Render", "Postman"],
+      "image": ""
+    },
+    {
       "title": "Happy Thoughts",
       "title-description": "A twitter-like app ",
-      "project-description": "A React application using API post and fetch. ",
+      "project-description": "Backend + Frontend Project - Happy ThoughtsAnother backend project where I learnt about allowing user to POST data to my API and then use that data to save new objects in my Mongo database.Then The backend project is connected to the frontend project from previous weeks",
       "repo-name": "Happy-Thoughts-API-Frontend",
       "netlifyname": "https://linnea-happy-thoughts-api-frontend.netlify.app/",
       "tags": ["HTML5", "CSS3", "JavaScript", "React", "API", "Mongo DB", "Google Cloud/Render"],
       "image": "/project-img/happy.png"
+    }, 
+    {
+      "title": "Labyrinth",
+      "title-description": "A text based game Labyrinth to practice how APIs work together with Redux.",
+      "project-description": "Week 12 of Technigo bootcamp we created a game in order to learn more about how to write Redux, like thunks, store and handle response delay.",
+      "repo-name": "Linnea-W-project-guess-who",
+      "netlifyname": " https://linneaw-project-guess-who.netlify.app/",
+      "tags": ["HTML5", "CSS3", "JavaScript"],
+      "image": "/project-img/labyrinth.png"
+    }, 
+    {
+      "title": "Quiz",
+      "title-description": "A Swedish spelling quiz",
+      "project-description": "Week 10 of Technigo bootcamp we started working with Redux and global state to build a multiple-choice quiz. The main focus was to learn how to use Redux and also to use its selectors, use dispatch, trigger Redux actions and interact with the store.",
+      "repo-name": "project-redux-quiz",
+      "netlifyname": "https://the-better-hippo-team-quiz.netlify.app/",
+      "tags": ["HTML5", "CSS3", "JSX", "React", "Redux", "Google Jamboard"],
+      "image": "/project-img/quiz.png"
     },
     {
       "title": "Movies",
       "title-description": "Website listing recently released popular movies.",
-      "project-description": "A multipage React application using routes.",
+      "project-description": "Week 8 of Technigo bootcamp we used React and Routes to build multipage application.",
       "repo-name": "project-movies",
       "netlifyname": "https://project-movies-linnea-nina.netlify.app",
       "tags": ["HTML5", "CSS3", "JavaScript", "React", "API"],
       "image": "/project-img/movies.png"
-    },
-    {
-      "title": "Music",
-      "title-description": "Website showing new album and single releases.",
-      "project-description": "A page based on Spotify API",
-      "repo-name": "project-music-releases",
-      "netlifyname": "https://neah-and-linnea-music-releases.netlify.app",
-      "tags": ["HTML5", "CSS3", "JavaScript", "React", "API"],
-      "image": "/project-img/music.png"
-    },
+    },    
     {
       "title": "Survey",
-      "title-description": "Neontastic survey",
-      "project-description": "A typeform-like survey built with React",
+      "title-description": "A playful survey about bike commuting",
+      "project-description": "Week 6 of Technigo bootcamp we continued building with React, introduced the hook useState and created A typeform-like survey.",
       "repo-name": "project-survey",
       "netlifyname": "https://linneas-neontastic-survey.netlify.app",
       "tags": ["HTML5", "CSS3", "JavaScript", "React"],
       "image": "/project-img/survey.png"
     },
     {
+      "title": "Music",
+      "title-description": "Website showing new album and single releases.",
+      "project-description": "Week 5 of Technigo bootcamp we started working with React and components. We built a page based on Spotify API",
+      "repo-name": "project-music-releases",
+      "netlifyname": "https://neah-and-linnea-music-releases.netlify.app",
+      "tags": ["HTML5", "CSS3", "JavaScript", "React", "API"],
+      "image": "/project-img/music.png"
+    },
+    {
       "title": "Weather app",
       "title-description": "Weather app based on open Weather API",
-      "project-description": "A responsive web site using HTML & CSS",
+      "project-description": "Week 3 of Technigo bootcamp we started working with APIs to fetch external data to our websites and built a responsive web site using HTML & CSS",
       "repo-name": "project-weather-app",
       "netlifyname": "https://wheather-app-linnea-and-tika.netlify.app/",
       "tags": ["HTML5", "CSS3", "JavaScript", "API"],
       "image": "/project-img/weatherApp.png"
+    },
+    {
+      "title": "Guess Who",
+      "title-description": "A digital version of the classic board game Guess Who. ",
+      "project-description": "Week 2 of Technigo bootcamp we dug deeper into JavaScript: objects, arrays and functions.",
+      "repo-name": "Linnea-W-project-guess-who",
+      "netlifyname": " https://linneaw-project-guess-who.netlify.app/",
+      "tags": ["HTML5", "CSS3", "JavaScript"],
+      "image": "/project-img/guesswho.png"
     }
   ]
