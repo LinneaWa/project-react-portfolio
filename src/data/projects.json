@@ -13,8 +13,8 @@
       "title": "Batcave",
       "title-description": "Site with registered users, login and authenticated endpoint",
       "project-description": "Week 16 of Technigo bootcamp we learned about how to build a registration flow and authenticate users using tokens. Backend + Frontend Project - Authentication APIThis project's goal was developing an API with authentication in order to implement a login/register interface with authentication. We learned how to authenticate users using tokens and how to store passwords in databases in a secure way. We also created a Frontend with a form to register, login and be able to see restricted content in case the login was successful.",
-      "repo-name": "project-weather-app",
-      "netlifyname": "https://wheather-app-linnea-and-tika.netlify.app/",
+      "repo-name": "project-auth",
+      "netlifyname": "https://lisa-linnea-project-auth.netlify.app",
       "tags": ["HTML5", "CSS3", "JavaScript", "API"],
       "image": "/project-img/authentication.png"
     },
@@ -22,7 +22,7 @@
       "title": "Backend project - Mongo API",
       "title-description": "",
       "project-description": "",
-      "repo-name": "",
+      "repo-name": "project-mongo-api",
       "netlifyname": "",
       "tags": ["Mongo DB", "Express", "Node", "API", "Google Cloud/Render", "Postman"],
       "image": ""
@@ -31,7 +31,7 @@
       "title": "Backend project - Express API",
       "title-description": "",
       "project-description": "",
-      "repo-name": "",
+      "repo-name": "project-express-api",
       "netlifyname": "",
       "tags": ["Express", "Node", "API", "Google Cloud/Render", "Postman"],
       "image": ""
@@ -49,8 +49,8 @@
       "title": "Labyrinth",
       "title-description": "A text based game Labyrinth to practice how APIs work together with Redux.",
       "project-description": "Week 12 of Technigo bootcamp we created a game in order to learn more about how to write Redux, like thunks, store and handle response delay.",
-      "repo-name": "Linnea-W-project-guess-who",
-      "netlifyname": " https://linneaw-project-guess-who.netlify.app/",
+      "repo-name": "project-labyrinth",
+      "netlifyname": "https://labyrinth-linnea-sofia.netlify.app/",
       "tags": ["HTML5", "CSS3", "JavaScript"],
       "image": "/project-img/labyrinth.png"
     }, 
